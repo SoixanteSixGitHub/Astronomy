@@ -22,7 +22,7 @@ the name of folders should have shown their function.
 
 - /checkpoint is folder for saving model weights
 
-- /results is folder where result csv files. (put val_labels_v1.csv here also!)
+- /results is folder where result csv files are saved. (put val_labels_v1.csv here also!)
 
 - /logs is folder you can check validate infos.
 
