@@ -1,12 +1,12 @@
-# Astronomy baseline
+# Astronomy Baseline
 A baseline for Astronomy competition on biendata platform.
 
-## solution
+## Solution
 We use a MLP to accomplish the classification task. Network architecture is defined in Model.py.
 
 Three classes 'star', 'galaxy', 'qso' are mapped to labels 0, 1, 2 respectively.
 
-## code orginization
+## Code Orginization
 * The network architeture is defined in Model.py
 
 * The dataset class is defined in Dataset.py
@@ -16,7 +16,7 @@ Three classes 'star', 'galaxy', 'qso' are mapped to labels 0, 1, 2 respectively.
 * i also provide a utility function, namely macro_f1, to evaluate your result(a csv file) which is defined in utils.py.
 
 
-## folders
+## Folders
 the name of folders should have shown their function.
 - /data is folder to data 
 
@@ -26,10 +26,12 @@ the name of folders should have shown their function.
 
 - /logs is folder you can check validate infos.
 
-## dependency
-pytorch >= 1.0
+## Dependency
++ pytorch >= 1.0 
++ numpy 
++ pandas
 
 \#note: lr_scheduler should be put in the end of each epoch if using pytorch>=1.1
 
-## how to run
+## How to run
 `python main.py`
