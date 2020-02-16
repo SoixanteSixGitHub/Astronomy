@@ -17,6 +17,7 @@ class AstroNet(nn.Module):
             nn.Linear(4096, 1024),
             nn.BatchNorm1d(1024),
             nn.ReLU(True),
+            nn.Dropout(),
             nn.Linear(1024, 3),
         )
 
