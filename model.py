@@ -17,7 +17,7 @@ class AstroNet(nn.Module):
             nn.Linear(4096, 1024),
             nn.BatchNorm1d(1024),
             nn.ReLU(True),
-            nn.Linear(1024, 2),
+            nn.Linear(1024, 3),
         )
 
     def forward(self, x):
